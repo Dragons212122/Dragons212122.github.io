@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pham Ngoc Kha | Portfolio</title>
+    <meta name="title" content="Portfolio của Kha">
+    <meta name="description" content="Chào mừng bạn đến với trang cá nhân của mình!">
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <header class="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-white">
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-4">
-            Hi, my name is <span class="text-teal-500">Pham Ngoc Kha</span>
-        </h1>
-        <p class="text-xl md:text-2xl text-gray-600 mb-8">
-            I'm a Computer Science Student & Web Developer.
-        </p>
-        <a href="#about" class="border-2 border-teal-500 text-teal-500 px-8 py-3 font-bold hover:bg-teal-500 hover:text-white transition-all duration-300">
-            KNOW MORE
-        </a>
-    </header>
+<body>
+    <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/banner.avif')] bg-cover bg-center">
+        <div class="w-full lg:w-[80%] p-12 text-gray-800">
+            <h1 class="text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
+                <span>Hi, my name is <span class="text-teal-400">Pham Ngoc Kha</span></span>
+                <span class="text-gray-800">I'm the Web Developer.</span>
+            </h1>
+            <a href="#about-me" class="uppercase border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-colors cursor-pointer">
+                <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light">Know more</span>
+            </a>
+        </div>
+    </section>
 
-    <section id="about" class="min-h-screen bg-teal-500 text-white flex flex-col justify-center items-center p-10">
-        <h2 class="text-3xl md:text-5xl font-bold mb-12 uppercase tracking-widest">About Me</h2>
-        <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div class="flex justify-center">
-                <img src="https://nguyenhuuquyen.com/imgs/avatar.png" alt="Kha's Avatar" class="rounded-lg shadow-2xl w-64 h-64 object-cover border-4 border-white">
-            </div>
-            <div class="space-y-6 text-lg">
-                <p>
-                    I am currently majoring in Computer Science and Engineering. I have a strong interest in network systems and web development.
-                </p>
-                <p>
-                    This portfolio is a showcase of my journey in learning modern web technologies like Tailwind CSS and Vite.
-                </p>
-                <a href="#" class="inline-block border-2 border-white px-6 py-2 font-bold hover:bg-white hover:text-teal-500 transition-all">
-                    View Resume
-                </a>
+    <section id="about-me" class="bg-teal-400 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+        <div class="w-full lg:w-[60%] mb-5">
+            <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold mb-12">About Me</h2>
+            <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
+                <div class="flex justify-center items-center col-span-1">
+                    <img class="object-cover max-w-xs lg:w-auto rounded-lg" src="https://nguyenhuuquyen.com/imgs/avatar.png" alt="My avatar" />
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+                    <div class="p-0 text-center lg:p-8 lg:text-start">
+                        <p class="pb-3 text-lg font-light mb-5">
+                            Mình là sinh viên ngành Kỹ thuật Máy tính (CSE). Mình yêu thích lập trình và đang trong hành trình khám phá thế giới phát triển Web chuyên nghiệp.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
